@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid turquoise;
+    background-color: indigo;
+    color: white;
+}
+.container div textarea::placeholder{
+    color: black;
+}
+
+.container div>div:last-child{
+    color: black;
+}

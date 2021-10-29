@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6" *ngFor="let proyecto of arrProyectos">
+            <detalle [proyecto]="proyecto" (borrarProyecto)="onBorrarProyecto($event)"></detalle>
+        </div>
+
+    </div>
+</div>
